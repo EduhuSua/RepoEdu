@@ -1,16 +1,32 @@
+.header{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
 .main-cont{
     margin: 20px;
     display: flex;
     justify-content: space-around;
 }
 
-.cont-teams{
+.cont-teams.team{
+    background-color: rgb(211, 211, 211);
+}
 
+.cont-teams{
+    background-color: rgb(177, 177, 177);
+    border-radius: 5px;
+    width: 400px;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
 }
 
 .cont-player{
+    background-color: white;
     width: 150px;
-    height: 100px;
+    max-height: 100px;
     margin: 10px;
     padding: 5px;
     border: 1px solid black;
@@ -18,10 +34,15 @@
     flex-flow: column;
     align-items: center;
     text-align: center;
+    border-radius: 5%;
 }
 
 .cont-player .cont-image{
 
+}
+
+.cont-image img{
+    width: 25%;
 }
 
 .cont-player .cont-description{
