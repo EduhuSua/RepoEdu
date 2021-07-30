@@ -11,8 +11,6 @@ import img7 from "./img/7.jpg"
 
 import './index.css';
 
-
-
 function Player(props){
     const capitan = props.data.capitan
     if(capitan){
