@@ -162,9 +162,6 @@ const App = () =>{
         }
         setTurn(!turnTeam1)
     }
-    function ret(){
-        return
-    }
     let valorTurno = ""
     if(turno){
         valorTurno = "Equipo de la Izq"
